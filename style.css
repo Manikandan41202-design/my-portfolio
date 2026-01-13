@@ -414,7 +414,7 @@ p {
   }
 
   section {
-    padding: 10px;
+    padding: 5px;
   }
 
   /* Example if you have two columns on desktop — make them stack */
@@ -440,6 +440,7 @@ p {
     padding: 15px;
   }
 }
+
 
 
 
