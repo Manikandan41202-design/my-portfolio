@@ -394,3 +394,44 @@ p {
   color: #22c55e;
   font-weight: bold;
 }
+
+/* MOBILE PHONES — up to 600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px; /* readable text on small screens */
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  /* Example if you have two columns on desktop — make them stack */
+  .skills, .experience {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* SMALL TABLETS — up to 768px */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .skills, .experience {
+    flex-direction: column;
+  }
+}
+
